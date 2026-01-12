@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/e/file/ihep/geant4_study/sample1/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
