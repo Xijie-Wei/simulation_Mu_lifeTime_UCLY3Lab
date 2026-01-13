@@ -1,6 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sim.dir/sim.cc.o"
   "CMakeFiles/sim.dir/sim.cc.o.d"
+  "CMakeFiles/sim.dir/src/PMActionInit.cc.o"
+  "CMakeFiles/sim.dir/src/PMActionInit.cc.o.d"
+  "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o"
+  "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o.d"
+  "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o"
+  "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o.d"
+  "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o"
+  "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o.d"
   "sim"
   "sim.pdb"
 )

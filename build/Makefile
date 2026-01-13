@@ -166,6 +166,102 @@ sim.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/sim.cc.s
 .PHONY : sim.cc.s
 
+src/PMActionInit.o: src/PMActionInit.cc.o
+.PHONY : src/PMActionInit.o
+
+# target to build an object file
+src/PMActionInit.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMActionInit.cc.o
+.PHONY : src/PMActionInit.cc.o
+
+src/PMActionInit.i: src/PMActionInit.cc.i
+.PHONY : src/PMActionInit.i
+
+# target to preprocess a source file
+src/PMActionInit.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMActionInit.cc.i
+.PHONY : src/PMActionInit.cc.i
+
+src/PMActionInit.s: src/PMActionInit.cc.s
+.PHONY : src/PMActionInit.s
+
+# target to generate assembly for a file
+src/PMActionInit.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMActionInit.cc.s
+.PHONY : src/PMActionInit.cc.s
+
+src/PMDetectorConstruction.o: src/PMDetectorConstruction.cc.o
+.PHONY : src/PMDetectorConstruction.o
+
+# target to build an object file
+src/PMDetectorConstruction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o
+.PHONY : src/PMDetectorConstruction.cc.o
+
+src/PMDetectorConstruction.i: src/PMDetectorConstruction.cc.i
+.PHONY : src/PMDetectorConstruction.i
+
+# target to preprocess a source file
+src/PMDetectorConstruction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.i
+.PHONY : src/PMDetectorConstruction.cc.i
+
+src/PMDetectorConstruction.s: src/PMDetectorConstruction.cc.s
+.PHONY : src/PMDetectorConstruction.s
+
+# target to generate assembly for a file
+src/PMDetectorConstruction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.s
+.PHONY : src/PMDetectorConstruction.cc.s
+
+src/PMPhysicsList.o: src/PMPhysicsList.cc.o
+.PHONY : src/PMPhysicsList.o
+
+# target to build an object file
+src/PMPhysicsList.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMPhysicsList.cc.o
+.PHONY : src/PMPhysicsList.cc.o
+
+src/PMPhysicsList.i: src/PMPhysicsList.cc.i
+.PHONY : src/PMPhysicsList.i
+
+# target to preprocess a source file
+src/PMPhysicsList.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMPhysicsList.cc.i
+.PHONY : src/PMPhysicsList.cc.i
+
+src/PMPhysicsList.s: src/PMPhysicsList.cc.s
+.PHONY : src/PMPhysicsList.s
+
+# target to generate assembly for a file
+src/PMPhysicsList.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMPhysicsList.cc.s
+.PHONY : src/PMPhysicsList.cc.s
+
+src/PMPrimaryGenerator.o: src/PMPrimaryGenerator.cc.o
+.PHONY : src/PMPrimaryGenerator.o
+
+# target to build an object file
+src/PMPrimaryGenerator.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o
+.PHONY : src/PMPrimaryGenerator.cc.o
+
+src/PMPrimaryGenerator.i: src/PMPrimaryGenerator.cc.i
+.PHONY : src/PMPrimaryGenerator.i
+
+# target to preprocess a source file
+src/PMPrimaryGenerator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.i
+.PHONY : src/PMPrimaryGenerator.cc.i
+
+src/PMPrimaryGenerator.s: src/PMPrimaryGenerator.cc.s
+.PHONY : src/PMPrimaryGenerator.s
+
+# target to generate assembly for a file
+src/PMPrimaryGenerator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s
+.PHONY : src/PMPrimaryGenerator.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,6 +275,18 @@ help:
 	@echo "... sim.o"
 	@echo "... sim.i"
 	@echo "... sim.s"
+	@echo "... src/PMActionInit.o"
+	@echo "... src/PMActionInit.i"
+	@echo "... src/PMActionInit.s"
+	@echo "... src/PMDetectorConstruction.o"
+	@echo "... src/PMDetectorConstruction.i"
+	@echo "... src/PMDetectorConstruction.s"
+	@echo "... src/PMPhysicsList.o"
+	@echo "... src/PMPhysicsList.i"
+	@echo "... src/PMPhysicsList.s"
+	@echo "... src/PMPrimaryGenerator.o"
+	@echo "... src/PMPrimaryGenerator.i"
+	@echo "... src/PMPrimaryGenerator.s"
 .PHONY : help
 
 

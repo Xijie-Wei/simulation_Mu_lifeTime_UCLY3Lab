@@ -591,6 +591,11 @@ CMakeFiles/sim.dir/sim.cc.o: /mnt/e/file/ihep/geant4_study/sample1/sim.cc \
  /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VRML2File.hh \
  /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4GMocrenFile.hh \
  /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ToolsSGOffscreen.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4OpenGLImmediateX.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4OpenGLStoredX.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4OpenGLImmediateQt.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4OpenGLQt.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4OpenGLStoredQt.hh \
  /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4RayTracerX.hh \
  /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4RayTracerQt.hh \
  /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ToolsSGX11GLES.hh \
@@ -602,4 +607,43 @@ CMakeFiles/sim.dir/sim.cc.o: /mnt/e/file/ihep/geant4_study/sample1/sim.cc \
  /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4coutDestination.hh \
  /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4UIbatch.hh \
  /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4UIExecutive.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VUIshell.hh
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VUIshell.hh \
+ /mnt/e/file/ihep/geant4_study/sample1/include/PMPhysicslist.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VModularPhysicsList.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VPhysicsConstructor.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4PhysicsListHelper.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4PhysicsListOrderingParameter.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ThreadLocalSingleton.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4Cache.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4CacheDetails.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VUPLSplitter.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VUserPhysicsList.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ProductionCutsTable.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4MaterialCutsCouple.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ProductionCuts.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4MCCIndexConversionTable.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4EmStandardPhysics.hh \
+ /mnt/e/file/ihep/geant4_study/sample1/include/PMDetectorConstruction.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VUserDetectorConstruction.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4Box.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4LogicalVolume.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VPhysicalVolume.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4PVPlacement.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4Material.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4NistManager.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ICRU90StoppingData.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4NistElementBuilder.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4NistMaterialBuilder.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4Pow.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4Exp.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4SystemOfUnits.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4UnitsTable.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4UnitsTable.icc \
+ /mnt/e/file/ihep/geant4_study/sample1/include/PMActionInit.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VUserActionInitialization.hh \
+ /mnt/e/file/ihep/geant4_study/sample1/include/PMPrimaryGenerator.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleDefinition.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleGun.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VPrimaryGenerator.hh \
+ /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleTable.hh

@@ -9,6 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/e/file/ihep/geant4_study/sample1/sim.cc" "CMakeFiles/sim.dir/sim.cc.o" "gcc" "CMakeFiles/sim.dir/sim.cc.o.d"
+  "/mnt/e/file/ihep/geant4_study/sample1/src/PMActionInit.cc" "CMakeFiles/sim.dir/src/PMActionInit.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMActionInit.cc.o.d"
+  "/mnt/e/file/ihep/geant4_study/sample1/src/PMDetectorConstruction.cc" "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o.d"
+  "/mnt/e/file/ihep/geant4_study/sample1/src/PMPhysicsList.cc" "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o.d"
+  "/mnt/e/file/ihep/geant4_study/sample1/src/PMPrimaryGenerator.cc" "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
