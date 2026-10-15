@@ -57,10 +57,10 @@ RM = /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/file/ihep/geant4_study/sample1
+CMAKE_SOURCE_DIR = /mnt/e/file/UCL/year2026/Term1Lab/simulation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/file/ihep/geant4_study/sample1/build
+CMAKE_BINARY_DIR = /mnt/e/file/UCL/year2026/Term1Lab/simulation/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles /mnt/e/file/ihep/geant4_study/sample1/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles /mnt/e/file/UCL/year2026/Term1Lab/simulation/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -214,6 +214,30 @@ src/PMDetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.s
 .PHONY : src/PMDetectorConstruction.cc.s
 
+src/PMEventAction.o: src/PMEventAction.cc.o
+.PHONY : src/PMEventAction.o
+
+# target to build an object file
+src/PMEventAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMEventAction.cc.o
+.PHONY : src/PMEventAction.cc.o
+
+src/PMEventAction.i: src/PMEventAction.cc.i
+.PHONY : src/PMEventAction.i
+
+# target to preprocess a source file
+src/PMEventAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMEventAction.cc.i
+.PHONY : src/PMEventAction.cc.i
+
+src/PMEventAction.s: src/PMEventAction.cc.s
+.PHONY : src/PMEventAction.s
+
+# target to generate assembly for a file
+src/PMEventAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMEventAction.cc.s
+.PHONY : src/PMEventAction.cc.s
+
 src/PMPhysicsList.o: src/PMPhysicsList.cc.o
 .PHONY : src/PMPhysicsList.o
 
@@ -262,6 +286,78 @@ src/PMPrimaryGenerator.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s
 .PHONY : src/PMPrimaryGenerator.cc.s
 
+src/PMRunAction.o: src/PMRunAction.cc.o
+.PHONY : src/PMRunAction.o
+
+# target to build an object file
+src/PMRunAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMRunAction.cc.o
+.PHONY : src/PMRunAction.cc.o
+
+src/PMRunAction.i: src/PMRunAction.cc.i
+.PHONY : src/PMRunAction.i
+
+# target to preprocess a source file
+src/PMRunAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMRunAction.cc.i
+.PHONY : src/PMRunAction.cc.i
+
+src/PMRunAction.s: src/PMRunAction.cc.s
+.PHONY : src/PMRunAction.s
+
+# target to generate assembly for a file
+src/PMRunAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMRunAction.cc.s
+.PHONY : src/PMRunAction.cc.s
+
+src/PMSensitiveDec.o: src/PMSensitiveDec.cc.o
+.PHONY : src/PMSensitiveDec.o
+
+# target to build an object file
+src/PMSensitiveDec.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMSensitiveDec.cc.o
+.PHONY : src/PMSensitiveDec.cc.o
+
+src/PMSensitiveDec.i: src/PMSensitiveDec.cc.i
+.PHONY : src/PMSensitiveDec.i
+
+# target to preprocess a source file
+src/PMSensitiveDec.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMSensitiveDec.cc.i
+.PHONY : src/PMSensitiveDec.cc.i
+
+src/PMSensitiveDec.s: src/PMSensitiveDec.cc.s
+.PHONY : src/PMSensitiveDec.s
+
+# target to generate assembly for a file
+src/PMSensitiveDec.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMSensitiveDec.cc.s
+.PHONY : src/PMSensitiveDec.cc.s
+
+src/PMUserSteppingAction.o: src/PMUserSteppingAction.cc.o
+.PHONY : src/PMUserSteppingAction.o
+
+# target to build an object file
+src/PMUserSteppingAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.o
+.PHONY : src/PMUserSteppingAction.cc.o
+
+src/PMUserSteppingAction.i: src/PMUserSteppingAction.cc.i
+.PHONY : src/PMUserSteppingAction.i
+
+# target to preprocess a source file
+src/PMUserSteppingAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.i
+.PHONY : src/PMUserSteppingAction.cc.i
+
+src/PMUserSteppingAction.s: src/PMUserSteppingAction.cc.s
+.PHONY : src/PMUserSteppingAction.s
+
+# target to generate assembly for a file
+src/PMUserSteppingAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.s
+.PHONY : src/PMUserSteppingAction.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -281,12 +377,24 @@ help:
 	@echo "... src/PMDetectorConstruction.o"
 	@echo "... src/PMDetectorConstruction.i"
 	@echo "... src/PMDetectorConstruction.s"
+	@echo "... src/PMEventAction.o"
+	@echo "... src/PMEventAction.i"
+	@echo "... src/PMEventAction.s"
 	@echo "... src/PMPhysicsList.o"
 	@echo "... src/PMPhysicsList.i"
 	@echo "... src/PMPhysicsList.s"
 	@echo "... src/PMPrimaryGenerator.o"
 	@echo "... src/PMPrimaryGenerator.i"
 	@echo "... src/PMPrimaryGenerator.s"
+	@echo "... src/PMRunAction.o"
+	@echo "... src/PMRunAction.i"
+	@echo "... src/PMRunAction.s"
+	@echo "... src/PMSensitiveDec.o"
+	@echo "... src/PMSensitiveDec.i"
+	@echo "... src/PMSensitiveDec.s"
+	@echo "... src/PMUserSteppingAction.o"
+	@echo "... src/PMUserSteppingAction.i"
+	@echo "... src/PMUserSteppingAction.s"
 .PHONY : help
 
 

@@ -53,10 +53,10 @@ RM = /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/file/ihep/geant4_study/sample1
+CMAKE_SOURCE_DIR = /mnt/e/file/UCL/year2026/Term1Lab/simulation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/file/ihep/geant4_study/sample1/build
+CMAKE_BINARY_DIR = /mnt/e/file/UCL/year2026/Term1Lab/simulation/build
 
 # Utility rule file for SAMPLE1.
 
@@ -84,6 +84,6 @@ CMakeFiles/SAMPLE1.dir/clean:
 .PHONY : CMakeFiles/SAMPLE1.dir/clean
 
 CMakeFiles/SAMPLE1.dir/depend:
-	cd /mnt/e/file/ihep/geant4_study/sample1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/file/ihep/geant4_study/sample1 /mnt/e/file/ihep/geant4_study/sample1 /mnt/e/file/ihep/geant4_study/sample1/build /mnt/e/file/ihep/geant4_study/sample1/build /mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles/SAMPLE1.dir/DependInfo.cmake "--color=$(COLOR)" SAMPLE1
+	cd /mnt/e/file/UCL/year2026/Term1Lab/simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/file/UCL/year2026/Term1Lab/simulation /mnt/e/file/UCL/year2026/Term1Lab/simulation /mnt/e/file/UCL/year2026/Term1Lab/simulation/build /mnt/e/file/UCL/year2026/Term1Lab/simulation/build /mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles/SAMPLE1.dir/DependInfo.cmake "--color=$(COLOR)" SAMPLE1
 .PHONY : CMakeFiles/SAMPLE1.dir/depend
 

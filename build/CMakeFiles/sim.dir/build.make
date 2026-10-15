@@ -53,10 +53,10 @@ RM = /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/file/ihep/geant4_study/sample1
+CMAKE_SOURCE_DIR = /mnt/e/file/UCL/year2026/Term1Lab/simulation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/file/ihep/geant4_study/sample1/build
+CMAKE_BINARY_DIR = /mnt/e/file/UCL/year2026/Term1Lab/simulation/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sim.dir/depend.make
@@ -73,82 +73,142 @@ CMakeFiles/sim.dir/codegen:
 .PHONY : CMakeFiles/sim.dir/codegen
 
 CMakeFiles/sim.dir/sim.cc.o: CMakeFiles/sim.dir/flags.make
-CMakeFiles/sim.dir/sim.cc.o: /mnt/e/file/ihep/geant4_study/sample1/sim.cc
+CMakeFiles/sim.dir/sim.cc.o: /mnt/e/file/UCL/year2026/Term1Lab/simulation/sim.cc
 CMakeFiles/sim.dir/sim.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sim.dir/sim.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/sim.cc.o -MF CMakeFiles/sim.dir/sim.cc.o.d -o CMakeFiles/sim.dir/sim.cc.o -c /mnt/e/file/ihep/geant4_study/sample1/sim.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sim.dir/sim.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/sim.cc.o -MF CMakeFiles/sim.dir/sim.cc.o.d -o CMakeFiles/sim.dir/sim.cc.o -c /mnt/e/file/UCL/year2026/Term1Lab/simulation/sim.cc
 
 CMakeFiles/sim.dir/sim.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/sim.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/ihep/geant4_study/sample1/sim.cc > CMakeFiles/sim.dir/sim.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/UCL/year2026/Term1Lab/simulation/sim.cc > CMakeFiles/sim.dir/sim.cc.i
 
 CMakeFiles/sim.dir/sim.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/sim.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/ihep/geant4_study/sample1/sim.cc -o CMakeFiles/sim.dir/sim.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/UCL/year2026/Term1Lab/simulation/sim.cc -o CMakeFiles/sim.dir/sim.cc.s
 
 CMakeFiles/sim.dir/src/PMActionInit.cc.o: CMakeFiles/sim.dir/flags.make
-CMakeFiles/sim.dir/src/PMActionInit.cc.o: /mnt/e/file/ihep/geant4_study/sample1/src/PMActionInit.cc
+CMakeFiles/sim.dir/src/PMActionInit.cc.o: /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMActionInit.cc
 CMakeFiles/sim.dir/src/PMActionInit.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sim.dir/src/PMActionInit.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMActionInit.cc.o -MF CMakeFiles/sim.dir/src/PMActionInit.cc.o.d -o CMakeFiles/sim.dir/src/PMActionInit.cc.o -c /mnt/e/file/ihep/geant4_study/sample1/src/PMActionInit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sim.dir/src/PMActionInit.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMActionInit.cc.o -MF CMakeFiles/sim.dir/src/PMActionInit.cc.o.d -o CMakeFiles/sim.dir/src/PMActionInit.cc.o -c /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMActionInit.cc
 
 CMakeFiles/sim.dir/src/PMActionInit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PMActionInit.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/ihep/geant4_study/sample1/src/PMActionInit.cc > CMakeFiles/sim.dir/src/PMActionInit.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMActionInit.cc > CMakeFiles/sim.dir/src/PMActionInit.cc.i
 
 CMakeFiles/sim.dir/src/PMActionInit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMActionInit.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/ihep/geant4_study/sample1/src/PMActionInit.cc -o CMakeFiles/sim.dir/src/PMActionInit.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMActionInit.cc -o CMakeFiles/sim.dir/src/PMActionInit.cc.s
 
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: CMakeFiles/sim.dir/flags.make
-CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: /mnt/e/file/ihep/geant4_study/sample1/src/PMDetectorConstruction.cc
+CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMDetectorConstruction.cc
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o -MF CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o.d -o CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o -c /mnt/e/file/ihep/geant4_study/sample1/src/PMDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o -MF CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o.d -o CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o -c /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMDetectorConstruction.cc
 
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/ihep/geant4_study/sample1/src/PMDetectorConstruction.cc > CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMDetectorConstruction.cc > CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.i
 
 CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/ihep/geant4_study/sample1/src/PMDetectorConstruction.cc -o CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMDetectorConstruction.cc -o CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.s
+
+CMakeFiles/sim.dir/src/PMEventAction.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/src/PMEventAction.cc.o: /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMEventAction.cc
+CMakeFiles/sim.dir/src/PMEventAction.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sim.dir/src/PMEventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMEventAction.cc.o -MF CMakeFiles/sim.dir/src/PMEventAction.cc.o.d -o CMakeFiles/sim.dir/src/PMEventAction.cc.o -c /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMEventAction.cc
+
+CMakeFiles/sim.dir/src/PMEventAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PMEventAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMEventAction.cc > CMakeFiles/sim.dir/src/PMEventAction.cc.i
+
+CMakeFiles/sim.dir/src/PMEventAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMEventAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMEventAction.cc -o CMakeFiles/sim.dir/src/PMEventAction.cc.s
 
 CMakeFiles/sim.dir/src/PMPhysicsList.cc.o: CMakeFiles/sim.dir/flags.make
-CMakeFiles/sim.dir/src/PMPhysicsList.cc.o: /mnt/e/file/ihep/geant4_study/sample1/src/PMPhysicsList.cc
+CMakeFiles/sim.dir/src/PMPhysicsList.cc.o: /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMPhysicsList.cc
 CMakeFiles/sim.dir/src/PMPhysicsList.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sim.dir/src/PMPhysicsList.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMPhysicsList.cc.o -MF CMakeFiles/sim.dir/src/PMPhysicsList.cc.o.d -o CMakeFiles/sim.dir/src/PMPhysicsList.cc.o -c /mnt/e/file/ihep/geant4_study/sample1/src/PMPhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sim.dir/src/PMPhysicsList.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMPhysicsList.cc.o -MF CMakeFiles/sim.dir/src/PMPhysicsList.cc.o.d -o CMakeFiles/sim.dir/src/PMPhysicsList.cc.o -c /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMPhysicsList.cc
 
 CMakeFiles/sim.dir/src/PMPhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PMPhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/ihep/geant4_study/sample1/src/PMPhysicsList.cc > CMakeFiles/sim.dir/src/PMPhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMPhysicsList.cc > CMakeFiles/sim.dir/src/PMPhysicsList.cc.i
 
 CMakeFiles/sim.dir/src/PMPhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMPhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/ihep/geant4_study/sample1/src/PMPhysicsList.cc -o CMakeFiles/sim.dir/src/PMPhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMPhysicsList.cc -o CMakeFiles/sim.dir/src/PMPhysicsList.cc.s
 
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: CMakeFiles/sim.dir/flags.make
-CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: /mnt/e/file/ihep/geant4_study/sample1/src/PMPrimaryGenerator.cc
+CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMPrimaryGenerator.cc
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o -MF CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o.d -o CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o -c /mnt/e/file/ihep/geant4_study/sample1/src/PMPrimaryGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o -MF CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o.d -o CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o -c /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMPrimaryGenerator.cc
 
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/ihep/geant4_study/sample1/src/PMPrimaryGenerator.cc > CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMPrimaryGenerator.cc > CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.i
 
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/ihep/geant4_study/sample1/src/PMPrimaryGenerator.cc -o CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMPrimaryGenerator.cc -o CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s
+
+CMakeFiles/sim.dir/src/PMRunAction.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/src/PMRunAction.cc.o: /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMRunAction.cc
+CMakeFiles/sim.dir/src/PMRunAction.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sim.dir/src/PMRunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMRunAction.cc.o -MF CMakeFiles/sim.dir/src/PMRunAction.cc.o.d -o CMakeFiles/sim.dir/src/PMRunAction.cc.o -c /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMRunAction.cc
+
+CMakeFiles/sim.dir/src/PMRunAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PMRunAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMRunAction.cc > CMakeFiles/sim.dir/src/PMRunAction.cc.i
+
+CMakeFiles/sim.dir/src/PMRunAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMRunAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMRunAction.cc -o CMakeFiles/sim.dir/src/PMRunAction.cc.s
+
+CMakeFiles/sim.dir/src/PMSensitiveDec.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/src/PMSensitiveDec.cc.o: /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMSensitiveDec.cc
+CMakeFiles/sim.dir/src/PMSensitiveDec.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sim.dir/src/PMSensitiveDec.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMSensitiveDec.cc.o -MF CMakeFiles/sim.dir/src/PMSensitiveDec.cc.o.d -o CMakeFiles/sim.dir/src/PMSensitiveDec.cc.o -c /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMSensitiveDec.cc
+
+CMakeFiles/sim.dir/src/PMSensitiveDec.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PMSensitiveDec.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMSensitiveDec.cc > CMakeFiles/sim.dir/src/PMSensitiveDec.cc.i
+
+CMakeFiles/sim.dir/src/PMSensitiveDec.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMSensitiveDec.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMSensitiveDec.cc -o CMakeFiles/sim.dir/src/PMSensitiveDec.cc.s
+
+CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.o: /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMUserSteppingAction.cc
+CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.o -MF CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.o.d -o CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.o -c /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMUserSteppingAction.cc
+
+CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMUserSteppingAction.cc > CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.i
+
+CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMUserSteppingAction.cc -o CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.s
 
 # Object files for target sim
 sim_OBJECTS = \
 "CMakeFiles/sim.dir/sim.cc.o" \
 "CMakeFiles/sim.dir/src/PMActionInit.cc.o" \
 "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o" \
+"CMakeFiles/sim.dir/src/PMEventAction.cc.o" \
 "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o" \
-"CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o"
+"CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o" \
+"CMakeFiles/sim.dir/src/PMRunAction.cc.o" \
+"CMakeFiles/sim.dir/src/PMSensitiveDec.cc.o" \
+"CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.o"
 
 # External object files for target sim
 sim_EXTERNAL_OBJECTS =
@@ -156,49 +216,55 @@ sim_EXTERNAL_OBJECTS =
 sim: CMakeFiles/sim.dir/sim.cc.o
 sim: CMakeFiles/sim.dir/src/PMActionInit.cc.o
 sim: CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o
+sim: CMakeFiles/sim.dir/src/PMEventAction.cc.o
 sim: CMakeFiles/sim.dir/src/PMPhysicsList.cc.o
 sim: CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o
+sim: CMakeFiles/sim.dir/src/PMRunAction.cc.o
+sim: CMakeFiles/sim.dir/src/PMSensitiveDec.cc.o
+sim: CMakeFiles/sim.dir/src/PMUserSteppingAction.cc.o
 sim: CMakeFiles/sim.dir/build.make
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4Tree.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4FR.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4GMocren.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4RayTracer.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4VRML.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4ToolsSG.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4OpenGL.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4vis_management.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4modeling.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4interfaces.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4mctruth.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4geomtext.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4analysis.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4error_propagation.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4readout.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4physicslists.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4run.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4event.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4tracking.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4parmodels.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4Tree.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4FR.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4GMocren.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4RayTracer.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4VRML.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4ToolsSG.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4OpenGL.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4vis_management.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4modeling.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4interfaces.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4mctruth.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4geomtext.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4gdml.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4analysis.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4error_propagation.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4readout.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4physicslists.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4run.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4event.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4tracking.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4parmodels.so
 sim: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.2.2
 sim: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.2.2
 sim: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.2.2
 sim: /usr/lib/x86_64-linux-gnu/libGL.so
+sim: /usr/lib/x86_64-linux-gnu/libxerces-c.so
 sim: /usr/lib/x86_64-linux-gnu/libexpat.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4processes_hadronic.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4processes_core.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4digits_hits.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4track.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4particles.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4geometry.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4graphics_reps.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4materials.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4intercoms.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4global.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4clhep.so
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4ptl.so.3.0.0
-sim: /opt/geant4/geant4-v11.4.0-source/lib/libG4zlib.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4processes_hadronic.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4processes_core.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4digits_hits.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4track.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4particles.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4geometry.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4graphics_reps.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4materials.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4intercoms.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4global.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4clhep.so
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4ptl.so.3.0.0
+sim: /opt/geant4/geant4-v11.4.0-build/BuildProducts/lib/libG4zlib.so
 sim: CMakeFiles/sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -210,6 +276,6 @@ CMakeFiles/sim.dir/clean:
 .PHONY : CMakeFiles/sim.dir/clean
 
 CMakeFiles/sim.dir/depend:
-	cd /mnt/e/file/ihep/geant4_study/sample1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/file/ihep/geant4_study/sample1 /mnt/e/file/ihep/geant4_study/sample1 /mnt/e/file/ihep/geant4_study/sample1/build /mnt/e/file/ihep/geant4_study/sample1/build /mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles/sim.dir/DependInfo.cmake "--color=$(COLOR)" sim
+	cd /mnt/e/file/UCL/year2026/Term1Lab/simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/file/UCL/year2026/Term1Lab/simulation /mnt/e/file/UCL/year2026/Term1Lab/simulation /mnt/e/file/UCL/year2026/Term1Lab/simulation/build /mnt/e/file/UCL/year2026/Term1Lab/simulation/build /mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles/sim.dir/DependInfo.cmake "--color=$(COLOR)" sim
 .PHONY : CMakeFiles/sim.dir/depend
 

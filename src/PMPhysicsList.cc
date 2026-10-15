@@ -2,8 +2,12 @@
 
 PMPhysicsList::PMPhysicsList()
 {
-    //EM
+    // EM
     RegisterPhysics(new G4EmStandardPhysics());
+    
+    // Decay
+    RegisterPhysics(new G4RadioactiveDecayPhysics());
+    RegisterPhysics(new G4DecayPhysics());
 }
 
 PMPhysicsList::~PMPhysicsList()

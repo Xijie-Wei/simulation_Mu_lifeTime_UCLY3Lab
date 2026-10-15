@@ -4,6 +4,7 @@
 #include "G4VUserDetectorConstruction.hh"
 
 #include "G4Box.hh"
+#include "G4Tubs.hh"
 
 #include "G4LogicalVolume.hh"
 #include "G4VPhysicalVolume.hh"
@@ -14,6 +15,12 @@
 #include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
 
+#include "G4VisAttributes.hh"
+#include "G4Color.hh"
+#include "G4SDManager.hh"
+#include "PMSensitiveDec.hh"
+#include "G4VisExtent.hh"
+
 class PMDetectorConstruction : public G4VUserDetectorConstruction
 {
 public:
@@ -21,6 +28,11 @@ public:
     virtual ~PMDetectorConstruction();
 
     virtual G4VPhysicalVolume *Construct();
+
+private:
+    G4LogicalVolume *logicalDetector;
+
+    virtual void ConstructSDandField();
 };
 
 #endif

@@ -1,14 +1,14 @@
 CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: \
- /mnt/e/file/ihep/geant4_study/sample1/src/PMPrimaryGenerator.cc \
+ /mnt/e/file/UCL/year2026/Term1Lab/simulation/src/PMPrimaryGenerator.cc \
  /usr/include/stdc-predef.h \
- /mnt/e/file/ihep/geant4_study/sample1/include/PMPrimaryGenerator.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleDefinition.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4PDefManager.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4AutoLock.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4Threading.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4Types.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4GlobalConfig.hh \
+ /mnt/e/file/UCL/year2026/Term1Lab/simulation/include/PMPrimaryGenerator.hh \
+ /opt/geant4/geant4-v11.4.0/source/run/include/G4VUserPrimaryGeneratorAction.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4ParticleDefinition.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4PDefManager.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4AutoLock.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4Threading.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4Types.hh \
+ /opt/geant4/geant4-v11.4.0-build/source/global/include/G4GlobalConfig.hh \
  /usr/include/c++/9/complex \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -171,9 +171,9 @@ CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: \
  /usr/include/c++/9/bits/basic_ios.tcc /usr/include/c++/9/ostream \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/bits/istream.tcc \
  /usr/include/c++/9/bits/sstream.tcc \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/tls.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/globals.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ios.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/tls.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/globals.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4ios.hh \
  /usr/include/c++/9/iostream /usr/include/c++/9/algorithm \
  /usr/include/c++/9/utility /usr/include/c++/9/bits/stl_relops.h \
  /usr/include/c++/9/bits/stl_algo.h \
@@ -197,10 +197,10 @@ CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
  /usr/include/c++/9/pstl/execution_defs.h \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4String.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4String.hh \
  /usr/include/c++/9/cstring /usr/include/string.h /usr/include/strings.h \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4String.icc \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/templates.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4String.icc \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/templates.hh \
  /usr/include/c++/9/climits \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
@@ -210,9 +210,9 @@ CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4Exception.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ExceptionSeverity.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4EnvironmentUtils.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4Exception.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4ExceptionSeverity.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4EnvironmentUtils.hh \
  /usr/include/c++/9/iomanip /usr/include/c++/9/locale \
  /usr/include/c++/9/bits/locale_facets_nonio.h /usr/include/c++/9/ctime \
  /usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h \
@@ -241,25 +241,32 @@ CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: \
  /usr/include/c++/9/backward/auto_ptr.h \
  /usr/include/c++/9/pstl/glue_memory_defs.h /usr/include/c++/9/atomic \
  /usr/include/c++/9/bits/atomic_futex.h \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/pwdefs.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/globals.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/pwdefs.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4Types.hh \
  /usr/include/c++/9/stdlib.h \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleDefinition.icc \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleGun.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4VPrimaryGenerator.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ThreeVector.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/CLHEP/Utility/defs.h \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleDefinition.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4PrimaryVertex.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4Allocator.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4ios.hh \
+ /opt/geant4/geant4-v11.4.0/source/externals/clhep/include/CLHEP/Units/PhysicalConstants.h \
+ /opt/geant4/geant4-v11.4.0/source/externals/clhep/include/CLHEP/Units/SystemOfUnits.h \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4ParticleDefinition.icc \
+ /opt/geant4/geant4-v11.4.0/source/event/include/G4ParticleGun.hh \
+ /opt/geant4/geant4-v11.4.0/source/event/include/G4VPrimaryGenerator.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4ThreeVector.hh \
+ /opt/geant4/geant4-v11.4.0/source/externals/clhep/include/CLHEP/Vector/ThreeVector.h \
+ /opt/geant4/geant4-v11.4.0/source/externals/clhep/include/CLHEP/Utility/defs.h \
+ /opt/geant4/geant4-v11.4.0/source/externals/clhep/include/CLHEP/Vector/ThreeVector.icc \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4PrimaryVertex.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4Allocator.hh \
  /usr/include/c++/9/cstddef \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4AllocatorPool.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4PrimaryParticle.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleMomentum.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleTable.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleTableIterator.hh \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4ParticleTable.icc \
- /opt/geant4/geant4-v11.4.0-source/include/Geant4/G4SystemOfUnits.hh
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4AllocatorPool.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4PrimaryParticle.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4ParticleMomentum.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4ParticleTable.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4ParticleDefinition.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4ParticleTableIterator.hh \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4Threading.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4ParticleTable.icc \
+ /opt/geant4/geant4-v11.4.0/source/global/management/include/G4SystemOfUnits.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4IonTable.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4Ions.hh \
+ /opt/geant4/geant4-v11.4.0/source/particles/management/include/G4ParticleTable.hh

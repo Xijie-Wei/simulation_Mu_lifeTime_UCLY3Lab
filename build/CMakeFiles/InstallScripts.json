@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/mnt/e/file/ihep/geant4_study/sample1/build/cmake_install.cmake"
+		"/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

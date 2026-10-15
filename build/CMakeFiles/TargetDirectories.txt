@@ -1,4 +1,4 @@
-/mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles/sim.dir
-/mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles/SAMPLE1.dir
-/mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles/edit_cache.dir
-/mnt/e/file/ihep/geant4_study/sample1/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles/sim.dir
+/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles/SAMPLE1.dir
+/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles/edit_cache.dir
+/mnt/e/file/UCL/year2026/Term1Lab/simulation/build/CMakeFiles/rebuild_cache.dir
